@@ -23,7 +23,7 @@
         fireChanged() {
             console.log("OnClick Triggered");      
             var measures = window.performance.getEntries();
-            var exportName = 'RaptrMeasures_' +  Date.now().toString() + '.json';
+            var exportName = 'PerformanceMeasures_' +  Date.now().toString() + '.json';
             var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(measures));
             var downloadAnchorNode = document.createElement('a');
             downloadAnchorNode.setAttribute("href", dataStr);
