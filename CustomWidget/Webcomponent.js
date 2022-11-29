@@ -37,5 +37,5 @@
         
     }
 
-    customElements.define('pka-button', PerformanceHelp);
+    customElements.define('custom-button', PerformanceHelp);
 })();
