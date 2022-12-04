@@ -13,7 +13,9 @@
 			"kind": "main",
 			"tag": "custom-button",
 			"url": "https://kandpalpranav.github.io/CustomWidget/Webcomponent.js",
-			"integrity": "sha256-QDWoNZEsTdTGIIMbD0SR0bf36R077fAYvSOMMhklvJw="		
+			"integrity": ""	,
+			"ignoreIntegrity": true
+			
 		}		
 	],
 	"properties": {
