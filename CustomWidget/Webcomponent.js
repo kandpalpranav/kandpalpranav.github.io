@@ -21,18 +21,8 @@
         }
 
         fireChanged() {
-            console.log("OnClick Triggered");      
-            var measures = window.performance.getEntries();
-            var exportName = 'PerformanceMeasures_' +  Date.now().toString() + '.json';
-            var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(measures));
-            var downloadAnchorNode = document.createElement('a');
-            downloadAnchorNode.setAttribute("href", dataStr);
-            downloadAnchorNode.setAttribute("download", exportName);
-            document.body.appendChild(downloadAnchorNode); // required for firefox
-            downloadAnchorNode.click();
-            downloadAnchorNode.remove();
-
-            console.log(measures);
+            console.log("OnClick Triggered");     
+           
         }        
         
     }
